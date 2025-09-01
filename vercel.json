@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/404.html"
+      "source": "/:page.html",
+      "destination": "/:page"
     },
     {
       "source": "/",
@@ -15,6 +15,10 @@
     {
       "source": "/about",
       "destination": "/about.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/404.html"
     }
   ]
 }
